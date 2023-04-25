@@ -3,10 +3,6 @@
   "crew": [
   ],
   "paymentAddresses": [
-    {
-      "chain": "polygon",
-      "address": "polygonaddressbot7"
-    }
   ],
   "image": "bot7imagepath"
 }
