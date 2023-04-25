@@ -1,9 +1,6 @@
 {
   "handle": "bot7",
-  "crew": [
-    "handle2",
-    "handle3"
-  ],
+  "crew": [],
   "paymentAddresses": [
     {
       "chain": "polygon",
