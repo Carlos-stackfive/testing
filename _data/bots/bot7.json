@@ -4,10 +4,6 @@
   ],
   "paymentAddresses": [
     {
-      "chain": "polygon",
-      "address": "polygonaddressbot7"
-    },
-    {
       "chain": "ethereum",
       "address": "etheriumaddressbot7"
     }
