@@ -2,18 +2,17 @@
   "handle": "bot6",
   "crew": [
     "handle1",
-    "handle2",
     "handle3"
   ],
   "paymentAddresses": [
     {
       "chain": "polygon",
-      "address": "polygonaddress2"
+      "address": "polygonaddress3"
     },
     {
       "chain": "ethereum",
-      "address": "etheriumaddress1"
+      "address": "etheriumaddress5"
     }
   ],
-  "image": "bot6imagepath"
+  "image": "bot6imagepath2"
 }
