@@ -2,7 +2,6 @@
   "handle": "bot6",
   "crew": [
     "handle1",
-    "handle3"
   ],
   "paymentAddresses": [
     {
@@ -14,5 +13,5 @@
       "address": "etheriumaddress5"
     }
   ],
-  "image": "bot6imagepath2"
+  "image": "bot6imagepath3"
 }
