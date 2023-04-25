@@ -2,12 +2,12 @@
   "handle": "bot6",
   "crew": [
     "handle1",
-    "handle2"
+    "handle3"
   ],
   "paymentAddresses": [
     {
       "chain": "polygon",
-      "address": "polygonaddress2"
+      "address": "polygonaddress3"
     },
     {
       "chain": "ethereum",
