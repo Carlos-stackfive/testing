@@ -1,0 +1,17 @@
+{
+  "handle": "bot8",
+  "crew": [
+    "handle1"
+  ],
+  "paymentAddresses": [
+    {
+      "chain": "polygon",
+      "address": "polygonaddressbot8"
+    },
+    {
+      "chain": "ethereum",
+      "address": "etheriumaddressbot8"
+    }
+  ],
+  "image": "bot8magepath"
+}
