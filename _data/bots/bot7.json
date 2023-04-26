@@ -3,10 +3,6 @@
   "crew": [
   ],
   "paymentAddresses": [
-    {
-      "chain": "ethereum",
-      "address": "etheriumaddressbot712"
-    }
   ],
   "image": "bot7imagepath123"
 }
