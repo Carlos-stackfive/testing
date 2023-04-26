@@ -1,8 +1,13 @@
 {
   "handle": "handle5",
   "members": [
+    "handle8"
   ],
   "paymentAddresses": [
+    {
+      "chain": "polygon",
+      "address": "polygonaddresshandle5"
+    }
   ],
   "image": "imagehandle5"
 }
