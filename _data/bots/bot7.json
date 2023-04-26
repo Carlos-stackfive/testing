@@ -5,12 +5,12 @@
   "paymentAddresses": [
     {
       "chain": "polygon",
-      "address": "polygonaddressbot7"
+      "address": "polygonaddressbot7123"
     },
     {
       "chain": "ethereum",
-      "address": "etheriumaddressbot7"
+      "address": "etheriumaddressbot712"
     }
   ],
-  "image": "bot7imagepath"
+  "image": "bot7imagepath123"
 }
