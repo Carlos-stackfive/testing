@@ -1,0 +1,12 @@
+{
+  "handle": "bot8",
+  "crew": [
+  ],
+  "paymentAddresses": [
+    {
+      "chain": "ethereum",
+      "address": "etheriumaddressbot8"
+    }
+  ],
+  "image": "bot8imagepath"
+}
