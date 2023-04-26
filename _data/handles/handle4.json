@@ -1,0 +1,14 @@
+{
+  "handle": "handle4",
+  "members": [
+    "handle1",
+    "handle2",
+  ],
+  "paymentAddresses": [
+    {
+      "chain": "polygon",
+      "address": "polygonaddresshandle4"
+    }
+  ],
+  "image": "imagehandle4"
+}
