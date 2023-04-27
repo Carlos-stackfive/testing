@@ -1,0 +1,13 @@
+{
+  "handle": "handle6",
+  "members": [
+    "handle3"
+  ],
+  "paymentAddresses": [
+    {
+      "chain": "ethereum",
+      "address": "ethereumaddresshandle6"
+    }
+  ],
+  "image": "imagehandle6.1"
+}
