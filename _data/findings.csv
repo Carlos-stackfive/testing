@@ -1,5 +1,4 @@
 contest,handle,finding,risk,score,pie,split,slice,award,awardCoin,awardUSD
-1,0xRajeev,H-01,3,,10,1,10,5702.879954,USDC,5702.88
 1,0xRajeev,L-02,1,,0.81,3,0.27,153.9777588,USDC,153.98
 1,0xRajeev,M-01,2,,2.43,3,0.81,461.9332763,USDC,461.93
 1,0xRajeev,M-02,2,,2.43,3,0.81,461.9332763,USDC,461.93
@@ -13,6 +12,7 @@ contest,handle,finding,risk,score,pie,split,slice,award,awardCoin,awardUSD
 1,pauliax,L-08,1,,1,1,1,570.2879954,USDC,570.29
 1,pauliax,L-09,1,,1,1,1,570.2879954,USDC,570.29
 1,pauliax,L-10,1,,1,1,1,570.2879954,USDC,570.29
+1,0xRajeev,H-01,3,,10,1,10,5702.879954,USDC,360.36
 1,pauliax,M-04,2,,2.7,2,1.35,769.8887938,USDC,769.89
 1,pauliax,N-01,0,,0,0,0,0,USDC,0
 1,onewayfunction,G-01,g,,0.9,2,0.45,191.4893617,USDC,191.49
