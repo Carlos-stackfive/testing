@@ -3,10 +3,6 @@
   "members": ["0x4non", "rotcivegaf"],
   "paymentAddresses": [
     {
-      "chain": "polygon",
-      "address": "my first bogus address"
-    }, 
-    {
       "chain": "etherium",
       "address": "my second bogus address"
     }
