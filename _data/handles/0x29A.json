@@ -5,6 +5,18 @@
     {
       "chain": "etherium",
       "address": "my second bogus address"
+    },
+     {
+      "chain": "etherium",
+      "address": "my second bogus address"
+    },
+     {
+      "chain": "etherium",
+      "address": "my second bogus address"
+    },
+     {
+      "chain": "etherium",
+      "address": "my second bogus address"
     }
   ]
 }
