@@ -12,5 +12,6 @@
       "address": "etheriumaddressbot8"
     }
   ],
-  "image": "./avatars/tbavatar.png"
+  "image": "./avatars/tbavatar.png",
+  "relegated": true
 }
