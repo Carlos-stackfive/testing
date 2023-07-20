@@ -1,0 +1,16 @@
+{
+  "handle": "testbot",
+  "crew": [
+  ],
+  "paymentAddresses": [
+    {
+      "chain": "polygon",
+      "address": "polygonaddressbot8"
+    },
+    {
+      "chain": "ethereum",
+      "address": "etheriumaddressbot8"
+    }
+  ],
+  "image": "./avatars/tbavatar.png"
+}
