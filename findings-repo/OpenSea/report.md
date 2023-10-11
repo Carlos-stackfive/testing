@@ -9,7 +9,7 @@ contest: 201
 
 # Overview
 
-## About C4zz
+## About C4
 
 Code4rena (C4) is an open organization consisting of security researchers, auditors, developers, and individuals with domain expertise in smart contracts.
 
