@@ -1,0 +1,18 @@
+{
+  "handle": "test-reg5",
+  "crew": [
+    "carlos_sf",
+    "geodude"
+  ],
+  "paymentAddresses": [
+    {
+      "chain": "polygon",
+      "address": "0x9d43e17d99132F8Ff8210466e6460C5bD2326606"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x9d43e17d99132F8Ff8210466e6460C5bD2326606"
+    }
+  ],
+  "image": "./avatars/test-reg5.png"
+}
