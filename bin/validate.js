@@ -1,6 +1,5 @@
 const { readFile, stat } = require("fs/promises");
 const path = require("path");
-const glob = require("tiny-glob");
 const fetch = require("node-fetch");
 
 const changedFiles = process.argv[2];
