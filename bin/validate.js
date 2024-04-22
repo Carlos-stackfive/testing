@@ -3,7 +3,7 @@ const fetch = require("node-fetch");
 
 // validate teams
 (async () => {
-  const changedFiles = typeof process.argv[2] === 'string' ? [process.argv[2]] : process.argv[2]; // single string or array of files changed
+  const [argv1, argv2, ...changedFiles] = process.argv; // single string or array of files changed
   console.log("changedFiles: ", changedFiles)
   let passedValidation = true;
   for (const changedFile of changedFiles) {
