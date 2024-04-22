@@ -12,12 +12,12 @@ const fetch = require("node-fetch");
       continue;
     }
     // handle handles file validation
-    const blob = await readFile("./" + handleFile);
+    const blob = await readFile("./" + changedFile);
     let parsedHandle;
     try {
       parsedHandle = JSON.parse(blob);
     } catch (err) {
-      console.error(`Unable to parse JSON file at ${handleFile}`);
+      console.error(`Unable to parse JSON file at ${changedFile}`);
       passedValidation = false;
       continue;
     }
