@@ -11,5 +11,8 @@
     "validate": "node bin/validate.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "node-fetch": "^3.3.2"
+  }
 }
