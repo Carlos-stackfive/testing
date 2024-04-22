@@ -15,48 +15,40 @@ const fetch = require("node-fetch");
     try {
       parsedHandle = JSON.parse(blob);
     } catch (err) {
-      console.error(`Unable to parse JSON file at ${changedFile}`);
+      console.error(`❌ Unable to parse JSON file at ${changedFile}`);
       passedValidation = false;
       continue;
     }
     // check that the required handle field exists
     const teamHandle = parsedHandle.handle
     if (!teamHandle) {
-      console.error("Handle field must exist.");
+      console.error("❌ Handle field must exist.");
       passedValidation = false;
       continue;
     }
     // check that the required members field exists
     const teamMembers = parsedHandle.members
     if (!teamHandle) {
-      console.error("Members field must exist.");
+      console.error("❌ Members field must exist.");
       passedValidation = false;
       continue;
     }
     // check that there is at least 1 member
     if (teamMembers.length < 1) {
-      console.error("Team must have 1 or more members");
+      console.error("❌ Team must have 1 or more members");
       passedValidation = false;
       continue;
     }
-    // check that handle is not a token handle (by team or user)
-    let res = await fetch(`https://api.code4rena.com/api/get-user?id=${teamHandle}`)
+    // give warning if handle exists, in case this is a team creation (as opposed to team edit).
+    const res = await fetch(`https://api.code4rena.com/api/get-user?id=${teamHandle}`) // fetches either team or user
     if (res.status === 200) {
-      console.error("Handle is taken.");
-      passedValidation = false;
-      continue;
-    }
-    res = await fetch(`https://api.code4rena.com/api/get-team?id=${teamHandle}`)
-    if (res.status === 200) {
-      console.error("Handle is taken.");
-      passedValidation = false;
-      continue;
+      console.info("❗ Handle is taken. Ignore if editting team.");
     }
     // check that each member in the team exists
     for (const member of parsedHandle.members) {
       const res = await fetch(`https://api.code4rena.com/api/get-user?id=${member}`)
       if (res.status !== 200) {
-        console.error(`Team member ${member} does not exist.`);
+        console.error(`❌ Team member ${member} does not exist.`);
         passedValidation = false;
       }
     }
