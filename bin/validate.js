@@ -38,4 +38,9 @@ const fn = async () => {
     }
   }
 }
-void fn().then(() => console.log("done"))
+(async () => {
+  const res = await fetch(`https://api.code4rena.com/api/get-team?id=karl`)
+  const res2 = await fetch(`https://api.code4rena.com/api/get-team?id=carlos_sf`)
+  console.log(res)
+  console.log(res2)
+})();
