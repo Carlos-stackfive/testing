@@ -31,4 +31,4 @@ jobs:
       - name: Validate
         env: 
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
-          run: yarn validate ${ALL_CHANGED_FILES}
+        run: yarn validate ${ALL_CHANGED_FILES}
