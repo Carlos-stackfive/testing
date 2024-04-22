@@ -18,7 +18,7 @@ jobs:
           node-version: 16.x
       - name: Modified files
         run: |
-          git fetch origin main:main
-          git diff --name-only --diff-filter=d main~ main   
+          echo 'steps.files.outputs.added=${{ steps.files.outputs.added }}'
+          echo 'steps.files.outputs.modified=${{ steps.files.outputs.modified }}'
       - run: yarn --frozen-lockfile
       - run: yarn validate
