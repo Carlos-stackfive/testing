@@ -42,7 +42,7 @@ const fetch = require("node-fetch");
     // give warning if handle exists, in case this is a team creation (as opposed to team edit).
     const res = await fetch(`https://api.code4rena.com/api/get-user?id=${teamHandle}`) // fetches either team or user
     if (res.status === 200) {
-      console.info("❗ Handle is taken. Ignore if editting team.");
+      console.info(`❗ Handle ${teamHandle} is taken. Ignore if editting team.`);
     }
     // check that each member in the team exists
     for (const member of parsedHandle.members) {
