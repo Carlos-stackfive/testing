@@ -28,4 +28,7 @@ jobs:
             echo "$file was changed"
           done
       - run: yarn --frozen-lockfile
-      - run: yarn validate
+      - name: Validate
+        env: 
+          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
+          run: yarn validate ${ALL_CHANGED_FILES}
